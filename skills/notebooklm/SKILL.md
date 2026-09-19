@@ -1334,3 +1334,12 @@ pricing, proof, CTA, сильные стороны, слабые стороны 
 Не преувеличивай выводы источников.
 ```
 
+## Продвинутый серверный контур Hardcoding PRO
+
+Если задача требует NotebookLM 24/7 на VPS, REST API для n8n/ботов или MCP-сервиса для нескольких AI-агентов, сначала прочитай отдельную публичную заметку:
+
+- GitHub: https://github.com/PavelDumbrao/nblm-assets/blob/main/guides/notebooklm-vps-rest-mcp-android.md
+- Raw Markdown: https://raw.githubusercontent.com/PavelDumbrao/nblm-assets/main/guides/notebooklm-vps-rest-mcp-android.md
+
+Не переходи на серверный контур автоматически. Для обычной личной работы оставайся на локальном CLI + SKILL.md. На VPS сначала делай live-аудит, используй отдельное Python-окружение, не публикуй REST/MCP наружу по умолчанию и проверяй работу реальным business-call, а не только health endpoint.
+
